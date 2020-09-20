@@ -21,7 +21,7 @@ Padrões são como um conjunto de ferramentas para soluções de problemas comun
 *Flyweight;
 *Proxy.
 
-#**Padrões Comportamentais**
+#**Padrões Comportamentais:**
 *Chain of Responsibility;
 *Command;
 *Iterator;
