@@ -30,5 +30,5 @@ Padrões são como um conjunto de ferramentas para soluções de problemas comun
 *Observer;
 *State;
 *Template Method;
-*Visitor
+*Visitor.
 
