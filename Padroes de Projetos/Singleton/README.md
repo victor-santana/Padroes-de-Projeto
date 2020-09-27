@@ -17,7 +17,7 @@ Se o seu código tem acesso à classe singleton, então ele será capaz de chama
 
 ## 5.Estrutura:
 
-
+![]()
 
  
 
