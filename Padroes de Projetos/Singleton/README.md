@@ -32,5 +32,8 @@ Se o seu código tem acesso à classe singleton, então ele será capaz de chama
 * Está interessado na instância, não importa se é uma só no programa todo
 
 ## 7. Código de amostra:
- [github.com/SsmoothSmooth/Estudo/Padrão de projetos/CompositePatten](https://github.com/SsmoothSmooth/Estudo/tree/master/01%20-%20Programa%C3%A7%C3%A3o%20avan%C3%A7ada/Padr%C3%A3o%20de%20projetos/Composite/CompositePatten)
+
+
+ [github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo)
+ 
 * Neste código é implementado uma classe que manipula um arquivo e aplicando o singleton garante que não haja mais de uma instância dessa classe no programa
