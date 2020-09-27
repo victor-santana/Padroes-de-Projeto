@@ -22,10 +22,12 @@ Se o seu código tem acesso à classe singleton, então ele será capaz de chama
  
 
 ## 6. Participantes:
-* *Singleton:*
+
+ *Singleton:*
 * É uma classe única deste padrão.
 * O construtor é privado, não acessível externamente.
-* *Cliente:*
+
+ *Cliente:*
 * É quem usa o Singleton
 * Está interessado na instância, não importa se é uma só no programa todo
 
