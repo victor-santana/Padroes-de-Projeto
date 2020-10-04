@@ -32,4 +32,5 @@ Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua 
 
 
 ## 7. Código de amostra:
+ [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Adapter/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Adapter/Exemplo)
 * Neste código é implementado uma adaptador que é capaz de converter a temperatura que veio em Fahrenheit e adaptar para colocar em Celsius, que originalmente deveria estar.
