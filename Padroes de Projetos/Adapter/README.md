@@ -10,7 +10,7 @@ O padrão adpter tem a motivação de criar um adaptador. Ele é um objeto espec
 ## 4.Aplicabilidade:
 Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.
 ## 5.Estrutura:
-![]()
+![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Adapter/Adapter.png)
 
 
 ## 6. Participantes:
