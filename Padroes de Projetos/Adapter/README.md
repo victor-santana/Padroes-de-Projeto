@@ -14,9 +14,9 @@ Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua 
 
 
 ## 6. Participantes:
- *_Cliente: _*
+* _Cliente: _*
 * O Cliente é uma classe que contém a lógica de negócio do programa existente.
- *_Interface do Cliente:_*
+* _Interface do Cliente:_*
 * A Interface do Cliente descreve um protocolo que outras classes devem seguir para ser capaz de colaborar com o código cliente.
 * _Serviço:_*
 * O Serviço é alguma classe útil (geralmente de terceiros ou código legado). O cliente não pode usar essa classe diretamente porque ela tem uma interface incompatível.
@@ -25,4 +25,4 @@ Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua 
 
 
 ## 7. Código de amostra:
-#Neste código é implementado uma adaptador que é capaz de converter a temperatura que veio em Fahrenheit e adaptar para colocar em Celsius, que originalmente deveria estar.
+# Neste código é implementado uma adaptador que é capaz de converter a temperatura que veio em Fahrenheit e adaptar para colocar em Celsius, que originalmente deveria estar.
