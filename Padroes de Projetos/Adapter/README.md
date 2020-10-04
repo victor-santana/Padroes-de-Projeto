@@ -1,33 +1,28 @@
-# Padrão de Projeto Adapter
-O Adapter é um padrão de projeto estrutural que permite objetos com interfaces incompatíveis colaborarem entre si.
-##1.Nome e Classificação e Classificação do Padrão:
-***Nome:** Padrão Adapter
-***Classificação:** Padrão Estruturais
-##2.Intenção:
-O padrão adapter tem a intenção de se um adaptador encobre um dos objetos para esconder a complexidade da conversão acontecendo nos bastidores.
-##3. Motivação:
-O padrão adpter tem a motivação de criar um adaptador. Ele é um objeto especial que converte a interface de um objeto para que outro objeto possa entendê-lo.
-##4.Aplicabilidade:
-Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.
-##5.Estrutura:
+# PadrÃ£o de Projeto Adapter
+O Adapter Ã© um padrÃ£o de projeto estrutural que permite objetos com interfaces incompatÃ­veis colaborarem entre si.
+## 1.Nome e ClassificaÃ§Ã£o e ClassificaÃ§Ã£o do PadrÃ£o:
+* **Nome:** PadrÃ£o Adapter
+* **ClassificaÃ§Ã£o:** PadrÃ£o Estruturais
+## 2.IntenÃ§Ã£o:
+O padrÃ£o adapter tem a intenÃ§Ã£o de se um adaptador encobre um dos objetos para esconder a complexidade da conversÃ£o acontecendo nos bastidores.
+## 3. MotivaÃ§Ã£o:
+O padrÃ£o adpter tem a motivaÃ§Ã£o de criar um adaptador. Ele Ã© um objeto especial que converte a interface de um objeto para que outro objeto possa entendÃª-lo.
+## 4.Aplicabilidade:
+Utilize a classe Adaptador quando vocÃª quer usar uma classe existente, mas sua interface nÃ£o for compatÃ­vel com o resto do seu cÃ³digo.
+## 5.Estrutura:
 
 
 
+## 6. Participantes:
+ *_Cliente: _*
+* O Cliente Ã© uma classe que contÃ©m a lÃ³gica de negÃ³cio do programa existente.
+ *_Interface do Cliente:_*
+* A Interface do Cliente descreve um protocolo que outras classes devem seguir para ser capaz de colaborar com o cÃ³digo cliente.
+* _ServiÃ§o:_*
+* O ServiÃ§o Ã© alguma classe Ãºtil (geralmente de terceiros ou cÃ³digo legado). O cliente nÃ£o pode usar essa classe diretamente porque ela tem uma interface incompatÃ­vel.
+* _Adaptador:_*
+* O Adaptador Ã© uma classe que Ã© capaz de trabalhar tanto com o cliente quanto o serviÃ§o: ela implementa a interface do cliente enquanto encobre o objeto do serviÃ§o. O adaptador recebe chamadas do cliente atravÃ©s da interface do adaptador e as traduz em chamadas para o objeto encobrido do serviÃ§o em um formato que ele possa entender.
 
 
-
- 
-
-##6. Participantes:
-*_Cliente: _*
-*O Cliente é uma classe que contém a lógica de negócio do programa existente.
-*_Interface do Cliente:_*
-*A Interface do Cliente descreve um protocolo que outras classes devem seguir para ser capaz de colaborar com o código cliente.
-*_Serviço:_*
-*O Serviço é alguma classe útil (geralmente de terceiros ou código legado). O cliente não pode usar essa classe diretamente porque ela tem uma interface incompatível.
-*_Adaptador:_*
-*O Adaptador é uma classe que é capaz de trabalhar tanto com o cliente quanto o serviço: ela implementa a interface do cliente enquanto encobre o objeto do serviço. O adaptador recebe chamadas do cliente através da interface do adaptador e as traduz em chamadas para o objeto encobrido do serviço em um formato que ele possa entender.
-
-
-##7. Código de amostra:
-#Neste código é implementado uma adaptador que é capaz de converter a temperatura que veio em Fahrenheit e adaptar para colocar em Celsius, que originalmente deveria estar.
+## 7. CÃ³digo de amostra:
+#Neste cÃ³digo Ã© implementado uma adaptador que Ã© capaz de converter a temperatura que veio em Fahrenheit e adaptar para colocar em Celsius, que originalmente deveria estar.
