@@ -31,4 +31,4 @@ Utilize o padrão quando alguns objetos em sua aplicação devem observar outros
 
 ## 7. Código de amostra:
  [github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo)
-# Neste exemplo a instancia de uma classe faz comunicação serial com um equipamento e recebe dados de forma assíncrona, e ao receber novos dados, ela notifica aos observadores que há um novo dado disponível.
+* Neste exemplo a instancia de uma classe faz comunicação serial com um equipamento e recebe dados de forma assíncrona, e ao receber novos dados, ela notifica aos observadores que há um novo dado disponível.
