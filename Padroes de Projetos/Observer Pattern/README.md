@@ -1,34 +1,34 @@
-# Padr„o de Projeto Observer
-O Observer È um padr„o de projeto comportamental que permite que vocÍ defina um mecanismo de assinatura para notificar m˙ltiplos objetos sobre quaisquer eventos que aconteÁam com o objeto que eles est„o observando.
+# Padr√£o de Projeto Observer
+O Observer √© um padr√£o de projeto comportamental que permite que voc√™ defina um mecanismo de assinatura para notificar m√∫ltiplos objetos sobre quaisquer eventos que aconte√ßam com o objeto que eles est√£o observando.
 
-##1.Nome e ClassificaÁ„o e ClassificaÁ„o do Padr„o:
-***Nome:** Padr„o Singleton
-***ClassificaÁ„o:** Padr„o Comportamental
-##2.IntenÁ„o:
-O padr„o Observer tem como objetivo comportamental onde permite que defina um mecanismo de assinatura para notificar m˙ltipos objetos sobre quaisquer eventos que aconteÁam com objeto que eles est„o observando.
-##3. MotivaÁ„o:
-*Permitir que qualquer objeto que implemente a interface do assinante possa se inscrever para notificaÁıes de eventos em objetos da publicadora.
+## 1.Nome e Classifica√ß√£o e Classifica√ß√£o do Padr√£o:
+***Nome:** Padr√£o Singleton
+***Classifica√ß√£o:** Padr√£o Comportamental
+## 2.Inten√ß√£o:
+O padr√£o Observer tem como objetivo comportamental onde permite que defina um mecanismo de assinatura para notificar m√∫ltipos objetos sobre quaisquer eventos que aconte√ßam com objeto que eles est√£o observando.
+## 3. Motiva√ß√£o:
+* Permitir que qualquer objeto que implemente a interface do assinante possa se inscrever para notifica√ß√µes de eventos em objetos da publicadora.
 
-##4.Aplicabilidade:
-Utilize o padr„o quando alguns objetos em sua aplicaÁ„o devem observar outros, mas apenas por um tempo limitado ou em casos especÌficos.
+## 4.Aplicabilidade:
+Utilize o padr√£o quando alguns objetos em sua aplica√ß√£o devem observar outros, mas apenas por um tempo limitado ou em casos espec√≠ficos.
 
-##5.Estrutura:
+## 5.Estrutura:
 
  ![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Singleton/Singleton.png)
 
-##6. Participantes:
-*_Publicadora:_*
-*Manda eventos de interesses para outros objetos
-*Eventos ocorrem quando a publicadora muda seu estado ou executa algum comportamento
-*_Foreach:_*
-*Quando um novo evento acontece, a publicadora percorre a lista de assinantes e chama o mÈtoso de notificaÁ„o declarando na interface do assinante em cada objeto assinante.
-*_Interface do Assinante:_*
-*Declara a interface de notificaÁ„o, ela consiste de um ˙nico mÈtodo, que pode ter v·rios par‚metos que permite que a publicadora passe detalhes de evento junto com a atualizaÁ„o.
-*_Assinantes Concretos:_*
-*Assinantes Concretos realizam algumas aÁıes em resposta n‡s notificaÁıes enviadas pela publicadora. Todas essas classes devem implementar a mesma interface para que a publicadora n„o fique acoplada ‡ classes concretas.
-*_Cliente:_*
-*Cria a publicadora e os objetos assinantes separadamente e ent„o registra os assinantes para as atualizaÁıes da publicadora.
+## 6. Participantes:
+* _Publicadora:_*
+* Manda eventos de interesses para outros objetos
+* Eventos ocorrem quando a publicadora muda seu estado ou executa algum comportamento
+* _Foreach:_*
+* Quando um novo evento acontece, a publicadora percorre a lista de assinantes e chama o m√©toso de notifica√ß√£o declarando na interface do assinante em cada objeto assinante.
+* _Interface do Assinante:_*
+* Declara a interface de notifica√ß√£o, ela consiste de um √∫nico m√©todo, que pode ter v√°rios par√¢metos que permite que a publicadora passe detalhes de evento junto com a atualiza√ß√£o.
+* _Assinantes Concretos:_*
+* Assinantes Concretos realizam algumas a√ß√µes em resposta n√†s notifica√ß√µes enviadas pela publicadora. Todas essas classes devem implementar a mesma interface para que a publicadora n√£o fique acoplada √† classes concretas.
+* _Cliente:_*
+* Cria a publicadora e os objetos assinantes separadamente e ent√£o registra os assinantes para as atualiza√ß√µes da publicadora.
 
-##7. CÛdigo de amostra:
+## 7. C√≥digo de amostra:
  [github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo)
-#Neste exemplo a instancia de uma classe faz comunicaÁ„o serial com um equipamento e recebe dados de forma assÌncrona, e ao receber novos dados, ela notifica aos observadores que h· um novo dado disponÌvel.
+# Neste exemplo a instancia de uma classe faz comunica√ß√£o serial com um equipamento e recebe dados de forma ass√≠ncrona, e ao receber novos dados, ela notifica aos observadores que h√° um novo dado dispon√≠vel.
