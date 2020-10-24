@@ -2,8 +2,8 @@
 O Observer é um padrão de projeto comportamental que permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
 
 ## 1.Nome e Classificação e Classificação do Padrão:
-***Nome:** Padrão Singleton
-***Classificação:** Padrão Comportamental
+* **Nome:** Padrão Singleton
+* **Classificação:** Padrão Comportamental
 ## 2.Intenção:
 O padrão Observer tem como objetivo comportamental onde permite que defina um mecanismo de assinatura para notificar múltipos objetos sobre quaisquer eventos que aconteçam com objeto que eles estão observando.
 ## 3. Motivação:
