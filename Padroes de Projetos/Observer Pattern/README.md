@@ -20,12 +20,16 @@ Utilize o padrão quando alguns objetos em sua aplicação devem observar outros
 *_Publicadora:_*
 * Manda eventos de interesses para outros objetos
 * Eventos ocorrem quando a publicadora muda seu estado ou executa algum comportamento
+
 *_Foreach:_*
 * Quando um novo evento acontece, a publicadora percorre a lista de assinantes e chama o métoso de notificação declarando na interface do assinante em cada objeto assinante.
+
 *_Interface do Assinante:_*
 * Declara a interface de notificação, ela consiste de um único método, que pode ter vários parâmetos que permite que a publicadora passe detalhes de evento junto com a atualização.
+
 *_Assinantes Concretos:_*
 * Assinantes Concretos realizam algumas ações em resposta nàs notificações enviadas pela publicadora. Todas essas classes devem implementar a mesma interface para que a publicadora não fique acoplada à classes concretas.
+
 *_Cliente:_*
 * Cria a publicadora e os objetos assinantes separadamente e então registra os assinantes para as atualizações da publicadora.
 
