@@ -14,7 +14,7 @@ Utilize o padrão quando alguns objetos em sua aplicação devem observar outros
 
 ## 5.Estrutura:
 
- ![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Singleton/Singleton.png)
+ ![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Observer%20Pattern/Observer.png)
 
 ## 6. Participantes:
 * _Publicadora:_*
