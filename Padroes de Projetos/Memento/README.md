@@ -1,26 +1,36 @@
-# Template Method
-O Template Method é um padrão de projeto comportamental que define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura. 
-
-![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Template%20Method/imgTemDe.png)
-
-Esse padrão de projeto com o objetivo de resolver esse problema: 
-Imagine que você está criando uma aplicação de mineração de dados que analisa documentos corporativos. Os usuários alimentam a aplicação com documentos em vários formatos (PDF, DOC, CSV), e ela tenta extrair dados significativos desses documentos para um formato uniforme.
-A primeira versão da aplicação podia funcionar somente com arquivos DOC. Na versão seguinte, ela era capaz de suportar arquivos CSV. Um mês depois, você a “ensinou” a extrair dados de arquivos PDF.
-
-Em algum momento você percebeu que todas as três classes tem muito código parecido. Embora o código para lidar com vários formatos seja inteiramente diferente em todas as classes, o código para processamento de dados e análise é quase idêntico. Não seria bacana se livrar da duplicação de código, deixando a estrutura do algoritmo intacta?
-Havia outro problema relacionado com o código cliente que usou essas classes. Ele tinha muitas condicionais que pegavam um curso de ação apropriado dependendo da classe do objeto processador. Se todas as três classes processantes tiverem uma interface comum ou uma classe base, você poderia eliminar as condicionais no código cliente e usar polimorfismo quando chamar métodos em um objeto sendo processado.
+# Memento
 
 
-## Estrutura:
-![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Template%20Method/TemMetEst.png)
+## Classification
+Comportamental
 
-## Componentes:
-Os componentes desse projeto são classes abstratas e as clsses concretas
+## Intent
+Permitir que o usuário seja capaz de salvar e restaurar pontos específicos de determinado objeto sem revelar detalhes de implementação.
+
+## Motivation
+O padrão de projeto Memento é utilizado em larga escala principalmente quando estamos falando de editores, de texto por exemplo, pois dessa forma, com a implementação desse padrão de projeto é possível recuperar o estado padrão do objeto (o texto, neste caso).
+
+Mas é claro que esse é apenas um exemplo, editores de imagem também são ótimos lugares para se aplicar o Memento e assim ele consegue recuperar o estado anterior da imagem que está sendo editada e copiar os dados para um objeto que vai ser futuramente restaurado.
+
+## Applicability
+O memento faz com que o objeto faça uma cópia de si mesmo (do seu estado), dessa forma nenhum outro objeto é capaz de interfirir, tornando assim o estado original do objeto seguro. 
+
+No entanto, o memento é utilizado em maior escala quando precisamos produzir várias cópias do estado de determinado objeto para assim conseguirmos restaurar um estado anterior do objeto.
+
+## Structure and Participants
+
+![structure1](https://user-images.githubusercontent.com/71103252/97759899-b8c75600-1ae0-11eb-8922-5832d349bce9.png)
+
+**Originadora:** classe que produz retratos do seu próprio estado e também restaura o seu estado anterior quando necessário.
+
+**Memento:** age como uma cópia do estado da originadora.
+
+**Cuidadora:** Responsável por saber quando restaurar o estado. Tabém sabe quando e por quê capturar o estado da originadora.
+
+## Sample code 
+
+[Link para o exemplo de código utilizando o padrão de projeto memento](https://github.com/danieldorta/padrao-de-projeto/tree/master/Memento/exemplo)
+
+O exemplo apresentado acima foi retirado do blog de [Marcos Brizeno](https://brizeno.wordpress.com/category/padroes-de-projeto/memento/). Nele temos um código que segue ao "pé da letra" de como o memento funciona, mostrando todos os participantes da estrurura do padrão de projeto.
 
 
-**Classe Abstrata:**
-A Classe Abstrata declara métodos que agem como etapas de um algoritmo, bem como o próprio método padrão que chama esses métodos em uma ordem específica. Os passos podem ser declarados como abstratos ou ter alguma implementação padrão.
-
-
-**Classes Concretas:**
-As Classes Concretas podem sobrescrever todas as etapas, mas não o próprio método padrão.
