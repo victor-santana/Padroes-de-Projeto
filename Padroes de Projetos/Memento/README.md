@@ -19,7 +19,7 @@ No entanto, o memento é utilizado em maior escala quando precisamos produzir v�
 
 ## Structure and Participants
 
-![structure1](https://user-images.githubusercontent.com/71103252/97759899-b8c75600-1ae0-11eb-8922-5832d349bce9.png)
+![https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Memento/Memento.png](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Memento/Memento.png)
 
 **Originadora:** classe que produz retratos do seu próprio estado e também restaura o seu estado anterior quando necessário.
 
