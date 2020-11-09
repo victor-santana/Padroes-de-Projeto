@@ -17,10 +17,15 @@ O padrão State permite que você extraia ramificações dessas condicionais par
 
 ## 6. Participantes:
  *_Contexto:_*
+ 
 * Armazena uma referência a um dos objetos concretos de estado e delega a eles todos os trabalhos específicos de estado. 
+ 
  *_Estado:_*
+ 
 * O estado declara métodos específicos a estados. Esses métodos devem fazer sentido para todos os estados concretos porque você não quer alguns dos seus estados tendo métodos inúteis que nunca irão ser chamados.
+ 
  *_Estados Concretos_*
+ 
 * Fornecem suas próprias implementações para os métodos específicos de estados. Para evitar duplicação ou código parecido em múltiplos estados, você pode fornecer classes abstratas intermediárias que encapsulam alguns dos comportamentos comuns.
 
 ## 7. Código de amostra:
