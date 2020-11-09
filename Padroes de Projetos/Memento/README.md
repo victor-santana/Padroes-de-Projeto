@@ -29,6 +29,5 @@ O Memento faz o próprio objeto ser responsável por criar um retrato de seu est
 
 [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Memento/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Memento/Exemplo)
 
-O exemplo apresentado acima foi retirado do blog de [Marcos Brizeno](https://brizeno.wordpress.com/category/padroes-de-projeto/memento/). Nele temos um código que segue ao "pé da letra" de como o memento funciona, mostrando todos os participantes da estrurura do padrão de projeto.
-
+O exemplo acima é de um editor de texto que precisa manter o controle apenas do texto que é digitado, um notepad por exemplo.
 
