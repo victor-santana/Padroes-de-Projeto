@@ -29,5 +29,5 @@ O padrão State permite que você extraia ramificações dessas condicionais par
 * Fornecem suas próprias implementações para os métodos específicos de estados. Para evitar duplicação ou código parecido em múltiplos estados, você pode fornecer classes abstratas intermediárias que encapsulam alguns dos comportamentos comuns.
 
 ## 7. Código de amostra:
- [github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Singleton/Exemplo)
+ [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/State/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/State/Exemplo)
 * Neste exemplo a instancia de uma classe faz comunicação serial com um equipamento e recebe dados de forma assíncrona, e ao receber novos dados, ela notifica aos observadores que há um novo dado disponível.
