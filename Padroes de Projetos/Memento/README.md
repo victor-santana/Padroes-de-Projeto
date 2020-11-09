@@ -4,20 +4,18 @@
 ## Classification
 Comportamental
 
-## Intent
-Permitir que o usuário seja capaz de salvar e restaurar pontos específicos de determinado objeto sem revelar detalhes de implementação.
+## Intenção
+O Memento é um padrão de projeto comportamental que permite que você salve e restaure o estado anterior de um objeto sem revelar os detalhes de sua implementação.
 
-## Motivation
-O padrão de projeto Memento é utilizado em larga escala principalmente quando estamos falando de editores, de texto por exemplo, pois dessa forma, com a implementação desse padrão de projeto é possível recuperar o estado padrão do objeto (o texto, neste caso).
+## Motivação
 
-Mas é claro que esse é apenas um exemplo, editores de imagem também são ótimos lugares para se aplicar o Memento e assim ele consegue recuperar o estado anterior da imagem que está sendo editada e copiar os dados para um objeto que vai ser futuramente restaurado.
+O padrão tem a otivação de permitir que você faça cópias completas do estado de um objeto, incluindo campos privados, e armazená-los separadamente do objeto. Embora a maioria das pessoas vão lembrar desse padrão graças ao caso “desfazer”, ele também é indispensável quando se está lidando com transações (isto é, se você precisa reverter uma operação quando se depara com um erro).
 
-## Applicability
-O memento faz com que o objeto faça uma cópia de si mesmo (do seu estado), dessa forma nenhum outro objeto é capaz de interfirir, tornando assim o estado original do objeto seguro. 
 
-No entanto, o memento é utilizado em maior escala quando precisamos produzir várias cópias do estado de determinado objeto para assim conseguirmos restaurar um estado anterior do objeto.
+## Applicabilidade
+O Memento faz o próprio objeto ser responsável por criar um retrato de seu estado. Nenhum outro objeto pode ler o retrato, fazendo do estado original do objeto algo seguro e confiável.
 
-## Structure and Participants
+## Estrutura e Participantes
 
 ![https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Memento/Memento.png](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Memento/Memento.png)
 
@@ -27,7 +25,7 @@ No entanto, o memento é utilizado em maior escala quando precisamos produzir v�
 
 **Cuidadora:** Responsável por saber quando restaurar o estado. Tabém sabe quando e por quê capturar o estado da originadora.
 
-## Sample code 
+## Código
 
 [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Memento/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Memento/Exemplo)
 
