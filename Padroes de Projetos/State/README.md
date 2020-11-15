@@ -30,4 +30,4 @@ O padrão State permite que você extraia ramificações dessas condicionais par
 
 ## 7. Código de amostra:
  [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/State/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/State/Exemplo)
-* Neste exemplo a instancia de uma classe faz comunicação serial com um equipamento e recebe dados de forma assíncrona, e ao receber novos dados, ela notifica aos observadores que há um novo dado disponível.
+* Neste exemplo maostra como o padrão serve para usar um exemplo de estado do filme o pausado e o inicial, mudando o estado de pausados e inicializado
