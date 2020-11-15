@@ -12,7 +12,7 @@ O padrão State permite que você extraia ramificações dessas condicionais par
 
 ## 5.Estrutura:
 
- ![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/State/State.png)
+ ![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Strategy/structure-indexed.png)
 
 ## 6. Participantes:
  *_Contexto:_*
