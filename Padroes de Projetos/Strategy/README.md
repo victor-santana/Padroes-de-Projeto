@@ -32,5 +32,5 @@ O padrão State permite que você extraia ramificações dessas condicionais par
 * cria um objeto estratégia específico e passa ele para o contexto. O contexto expõe um setter que permite o cliente mudar a estratégia associada com contexto durante a execução.
 
 ## 7. Código de amostra:
- [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/State/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/State/Exemplo)
-* Neste exemplo maostra como o padrão serve para usar um exemplo de estado do filme o pausado e o inicial, mudando o estado de pausados e inicializado
+ [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Strategy/StrategyPattern](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Strategy/StrategyPattern)
+* O exemplo acima usa-se como uma calculadora onde tem a divisão, subtração e soma
