@@ -31,7 +31,5 @@ O Abstract Factory é um padrão de projeto criacional que permite que você pro
 *_Cliente:_*
 * Embora fábricas concretas instanciam produtos concretos, assinaturas dos seus métodos de criação devem retornar produtos abstratos correspondentes. Dessa forma o código cliente que usa uma fábrica não fica ligada a variante específica do produto que ele pegou de uma fábrica. O Cliente pode trabalhar com qualquer variante de produto/fábrica concreto, desde que ele se comunique com seus objetos via interfaces abstratas.
 ## 7. Código de amostra:
- [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Observer%20Pattern/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Observer%20Pattern/Exemplo)
-* Neste exemplo, botões e caixas de seleção atuarão como produtos. Eles têm duas variantes: macOS e Windows.
-
-O Abstract Factory define uma interface para criar botões e caixas de seleção. Existem duas fábricas concretas, que retornam ambos os produtos em uma única variante.
+ [https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Abstract%20Factory/Exemplo](https://github.com/victor-santana/Padroes-de-Projeto/tree/master/Padroes%20de%20Projetos/Abstract%20Factory/Exemplo)
+* Neste exemplo, botões e caixas de seleção atuarão como produtos. Eles têm duas variantes: macOS e Windows. O Abstract Factory define uma interface para criar botões e caixas de seleção. Existem duas fábricas concretas, que retornam ambos os produtos em uma única variante.
