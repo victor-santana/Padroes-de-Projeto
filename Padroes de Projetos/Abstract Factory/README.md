@@ -14,7 +14,7 @@ O Abstract Factory é um padrão de projeto criacional que permite que você pro
 
 ## 5.Estrutura:
 
- ![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Observer%20Pattern/Observer.png)
+ ![](https://github.com/victor-santana/Padroes-de-Projeto/blob/master/Padroes%20de%20Projetos/Abstract%20Factory/structure-indexed.png)
 
 ## 6. Participantes:
 *_Produtos Abstratos:_*
